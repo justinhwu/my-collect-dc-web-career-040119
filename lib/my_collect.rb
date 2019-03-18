@@ -3,7 +3,7 @@ def my_collect(word)
   i=0
   while i<word.length
   yield (word[i].upcase)
-  array << word[i]
+  array << word.upcase
   i+=1
 end
   array
